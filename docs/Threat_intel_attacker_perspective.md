@@ -50,3 +50,21 @@ The core threats identified above map directly to specific **MITRE ATT&CK Enterp
 | | Impact | **T1565** | Data Manipulation |
 | **Business Email Compromise** | Initial Access | **T1566.002** | Phishing: Spearphishing Link / Attachment |
 | | Resource Development | **T1585** | Establish Accounts |
+
+---
+
+## 4. Regional Threat Context (North America)
+
+Operating a fintech platform in North America introduces immediate exposure to highly sophisticated, well-funded cybercriminal ecosystems. According to threat intelligence data from [CISA](https://www.cisa.gov/), [Microsoft Threat Intelligence](https://www.microsoft.com/en-us/security/security-insider/threat-landscape), and [CrowdStrike](https://www.crowdstrike.com/en-us/global-threat-report/), the regional threat vectors targeting banking, cryptocurrency, and financial operations are categorized into three distinct adversary archetypes:
+
+### 1. Cybercriminal & APT Groups Targeting Banks
+* **Lazarus Group (DPRK):** State-sponsored threat group notorious for high-profile financial heists, SWIFT banking compromises, and targeting crypto-adjacent fintech infrastructure to evade sanctions.
+* **Scattered Spider (UNC3944):** A highly active cybercriminal collective utilizing aggressive social engineering, SMS phishing, and SIM-swapping to compromise financial institution identities and initial access brokers.
+
+### 2. Ransomware Ecosystems Attacking Financial Firms
+* **Qilin:** A highly active Ransomware-as-a-Service (RaaS) network aggressively hitting financial hubs via third-party service provider supply-chain exploits.
+* **Akira & Play:** Prominent threat actors executing double-extortion campaigns against Western financial data pools, combining silent data exfiltration (PII/KYC ledgers) with operational lockouts.
+
+### 3. Phishing & Social Engineering Collectives
+* **Storm-0569 / Storm-1674:** Threat networks tracked by Microsoft deploying highly personalized Adversary-in-the-Middle (AitM) phishing templates to bypass financial multi-factor authentication (MFA).
+* **AI-Driven Synthetic Fraud Rings:** Unaligned threat groups weaponizing generative AI and voice cloning to target digital onboarding systems and bypass automated eKYC/liveness checks.
